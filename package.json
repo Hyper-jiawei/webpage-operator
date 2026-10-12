@@ -1,0 +1,18 @@
+{
+  "name": "webpage-operator",
+  "version": "0.1.0",
+  "description": "网页操作工具：用 Playwright 驱动本机 Chrome，打开、点击、读取任意网页并输出结构化（可选脱敏）信息；配套 Qoder 技能 webpage-operator。",
+  "type": "module",
+  "bin": {
+    "webop": "./bin/webop.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "install-skill": "node scripts/install-skill.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.64.0"
+  }
+}
